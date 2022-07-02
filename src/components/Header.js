@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import pdf from '../data/resume.pdf';
 
-const Header = ({name, resume}) => {
+const Header = ({name}) => {
     return (
         <div className="header">
-            <h2>{name}</h2>
-            <Link to="/search">Search</Link>
-            <a href={resume}>Resume</a>
+            <h2><Link to="/">{name}</Link></h2>
+            <div className="header-buttons">
+                <Link to="/search">Search</Link>
+                <a href={pdf} without rel="noopener noreferrer" target="_blank">Resume</a>
+            </div>
         </div>
     )
 }

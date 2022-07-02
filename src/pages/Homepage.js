@@ -4,7 +4,6 @@ const Homepage = () => {
 
     return(
         <div className="App">
-
             <Header name="Name Surname" resume="../"/>
         </div>
     )
