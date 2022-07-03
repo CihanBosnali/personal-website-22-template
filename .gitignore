@@ -25,3 +25,5 @@ yarn-error.log*
 # personal data
 /data
 /data/*
+/src/data
+/src/data/*
