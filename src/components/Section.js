@@ -1,4 +1,5 @@
 import MediumCard from "./MediumCard";
+import SmallCard from "./SmallCard";
 
 const Section = ({sectionName, cards}) => {
 
@@ -9,6 +10,7 @@ const Section = ({sectionName, cards}) => {
             <h4>{sectionName}</h4>
             <div className="card-deck">
                 {cardComponents}
+                <SmallCard/>
             </div>
         </div>
     )

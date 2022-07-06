@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
-const LargeCard = () => {
-    return(
+const SmallCard = () => {
+    return (
         <Link to={{}} onClick={alert}>
-            <div className="large-card">
-                
+            <div className="small-card">
+
             </div>
         </Link>
     )
 }
 
-export default LargeCard;
+export default SmallCard;

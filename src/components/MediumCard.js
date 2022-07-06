@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
 const MediumCard = () => {
     return (
-        <div className="medium-card">
+        <Link to={{}} onClick={alert}>
+            <div className="medium-card">
 
-        </div>
+            </div>
+        </Link>
     )
 }
 
