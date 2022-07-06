@@ -45,6 +45,13 @@ h2 a:hover {
   text-decoration: none;
 }
 
+.footer {
+  background-color: #363636;
+  margin-top: 20px;
+  height: 200px;
+  box-shadow: 0px 0px 10px black;
+}
+
 .large-card {
   height: 200px;
   width: 90%;

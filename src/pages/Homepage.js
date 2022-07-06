@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LargeCard from "../components/LargeCard";
 import Section from "../components/Section";
@@ -11,7 +12,7 @@ const Homepage = () => {
             <Section sectionName="Education" cards={["1","2"]}/>
             <Section sectionName="Projects" cards={["1","2","3","4"]}/>
             <Section sectionName="Contact and Social Media" cards={["1","2"]}/>
-
+            <Footer/>
 
         </div>
     )
