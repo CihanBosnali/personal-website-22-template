@@ -5,7 +5,7 @@ const Section = ({sectionName, cards}) => {
 
     const cardComponents = cards.map((card) => {
         if (card.size == "small") {
-            return <SmallCard/>;
+            return <SmallCard data={card}/>;
         } else {
             return <MediumCard data={card}/>;
         }
