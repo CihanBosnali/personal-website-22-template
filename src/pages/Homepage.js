@@ -11,7 +11,7 @@ const Homepage = ({name}) => {
     return(
         <div className="App">
             <Header name={name}/>
-            <LargeCard/>
+            <LargeCard data={homeData.about}/>
             {sections}
             <Footer/>
 
