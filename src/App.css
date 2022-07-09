@@ -79,6 +79,7 @@ a:hover {
   flex: 0 0 auto;
   display: flex;
   flex-direction:column-reverse;
+  background-size: cover;
 }
 
 .small-card {
@@ -89,6 +90,7 @@ a:hover {
   box-shadow: 0px 0px 10px black;
   border-radius: 4px;
   flex: 0 0 auto;
+  background-size: cover;
 }
 
 .large-card:hover, .medium-card:hover, .small-card:hover {
