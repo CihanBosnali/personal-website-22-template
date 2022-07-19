@@ -53,9 +53,11 @@ a:hover {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: darkolivegreen;
+  border-radius: 4px;
+  background-color: white;
   box-shadow: 0px 0px 10px black;
-  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
 }
 
 .large-card .text-container {
@@ -73,7 +75,7 @@ a:hover {
   height: 140px;
   width: 240px;
   margin-right: 20px;
-  background-color: darkolivegreen;
+  background-color: white;
   box-shadow: 0px 0px 10px black;
   border-radius: 4px;
   flex: 0 0 auto;
@@ -86,11 +88,12 @@ a:hover {
   height: 140px;
   width: 110px;
   margin-right: 20px;
-  background-color: darkolivegreen;
+  background-color: white;
   box-shadow: 0px 0px 10px black;
   border-radius: 4px;
   flex: 0 0 auto;
   background-size: cover;
+  background-position: center;
 }
 
 .large-card:hover, .medium-card:hover, .small-card:hover {
@@ -146,12 +149,22 @@ a:hover div h5 {
 }
 
 @media (min-width:1100px) {
+
+  .large-card {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 0px;
+  }
+
   .large-card .text-container p {
     font-size: small;
+    margin-top: 20px;
   }
 
   .large-card .text-container {
     width: 35%;
+    margin-left: 4%;
   }  
 }
 
