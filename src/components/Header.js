@@ -6,7 +6,6 @@ const Header = ({name}) => {
         <div className="header">
             <h2><Link to="/">{name}</Link></h2>
             <div className="header-buttons">
-                <Link to="/search">Search</Link>
                 <a href={pdf} without rel="noopener noreferrer" target="_blank">Resume</a>
             </div>
         </div>
