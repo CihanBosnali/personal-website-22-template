@@ -1,5 +1,7 @@
 # Personal Website Template
-This project is for generating sites similar to my own website cihanbosnali.com. The UI is influenced by streaming websites such as Disney+. You can use json files to add cards and information without dealing with the code.
+This project is for generating sites similar to my own website cihanbosnali.com. The UI is influenced by streaming websites such as Disney+. My motivation was to update the content easily without changing the code. Hence, all content is written to json files. You can use json files to add cards and other information. You can add images to the public data folder and mention them in your json to use them on your cards.
+
+![](https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=react&logoColor=white&color=blue)
 
 
 
