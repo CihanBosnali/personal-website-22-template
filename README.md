@@ -5,6 +5,11 @@ This project is for generating sites similar to my own website cihanbosnali.com.
 ![](https://img.shields.io/badge/License-MIT_License-informational?style=flat&logoColor=white&color=darkgreen)
 ![](https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=react&logoColor=white&color=blue)
 
+## Installation
+- Clone the repository.
+- Use `npm install` to install dependencies
+- Use `npm start` to run
+
 ## Adding Data
 The [data_example](https://github.com/CihanBosnali/personal-website-22-template/tree/main/src/data_example) folder includes json files necessary to generate your website. You can change this files and rename the folder to "data" in order to add your data to your website build.
 
