@@ -11,8 +11,14 @@ This project is for generating sites similar to my own website cihanbosnali.com.
 - Use `npm start` to run
 
 ## Adding Data
-The [data_example](https://github.com/CihanBosnali/personal-website-22-template/tree/main/src/data_example) folder includes json files necessary to generate your website. You can change this files and rename the folder to "data" in order to add your data to your website build.
+The [data](https://github.com/CihanBosnali/personal-website-22-template/tree/main/src/data) folder includes json files necessary to generate your website. You can change this files to add your data to your website build.
 
+## Deployment
+Use the command below to generate a build. You will need to host the newly generated build folder.
+```
+npm run build
+```
+You can use your favorite static hosting platform to host your site. My current favorite is [Firebase Hosting](https://firebase.google.com/docs/hosting).
 
 ## Available Scripts
 
