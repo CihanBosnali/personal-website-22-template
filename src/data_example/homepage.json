@@ -1,0 +1,97 @@
+{
+    "about":
+    {
+        "text": 
+        [
+            "First line of about me",
+            "Here is the second line of about me",
+            "You can add more lines"
+        ],
+
+        "image": "data/images/profile.jpg"
+    },
+
+    "sections":
+    [
+        {
+            "name": "Education",
+            "cards": 
+            [
+                {
+                    "size": "medium",
+                    "title":"Degree 1",
+                    "subtitle":"School Name",
+                    "image":"data/images/schoollogo1.jpg"
+                },
+                {
+                    "size": "medium",
+                    "title":"Degree",
+                    "subtitle":"School Name",
+                    "image":"data/images/schoollogo2.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Projects",
+            "cards":
+            [
+                {
+                    "size": "medium",
+                    "title":"Project Name",
+                    "subtitle":"Project description",
+                    "image":"data/images/projectname1.jpg",
+                    "externallink":"https://github.com"
+                },
+                {
+                    "size": "medium",
+                    "title":"Project Name",
+                    "subtitle":"Project description",
+                    "image":"data/images/projectname2.jpg",
+                    "externallink":"https://github.com"
+
+                },
+                {
+                    "size": "medium",
+                    "title":"Project Name",
+                    "subtitle":"Project description",
+                    "image":"data/images/projectname3.jpg",
+                    "externallink":"https://github.com"
+                },
+                {
+                    "size": "medium",
+                    "title":"Project Name",
+                    "subtitle":"Project description",
+                    "image":"data/images/placeholder.jpg",
+                    "externallink":"https://github.com"
+                }
+            ]
+        },
+        {
+            "name": "Contact and Social Media",
+            "cards":
+            [
+                {
+                    "size": "medium",
+                    "title": "<your email address>",
+                    "subtitle":"Send me an email anytime!",
+                    "image":"data/images/placeholder2.jpg"
+                },
+                {
+                    "size": "small",
+                    "image":"data/images/linkedinlogo.jpg",
+                    "externallink":"https://www.linkedin.com/"
+                },
+                {
+                    "size": "small",
+                    "image":"data/images/githublogo.jpg",
+                    "externallink":"https://github.com/"
+                },
+                {
+                    "size": "small",
+                    "image":"data/images/twitterlogo.png",
+                    "externallink":"https://twitter.com"
+                }
+            ]
+        }
+    ]
+}
